@@ -1,0 +1,20 @@
+languageCode = "en-us"
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+baseurl = "http://y-moriya.github.io/blog"
+canonifyurls = true
+title = "my new hugo site"
+autor = "y-moriya"
+
+[indexs]
+  category = "categories"
+  tag = "tags"
+[Params]
+  AuthorName = "y-moriya"
+  github = "y-moriya/blog"
+  bitbucket = "y-moriya"
+  twitter = "euro_s"
+  email = "euro21st@gmail.com"
+  description = "y-moriya's blog"
+  muut = "blog"
