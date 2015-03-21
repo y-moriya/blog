@@ -7,8 +7,4 @@ build:
        flags: --buildDrafts=true
 deploy:
   steps:
-    - lukevivier/gh-pages:
-        version: 0.2.1
-        token: $GIT_TOKEN
-        domain: y-moriya.org
-        basedir: public
+    - heroku-deploy
