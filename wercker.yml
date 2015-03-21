@@ -8,7 +8,7 @@ build:
 deploy:
   steps:
     - lukevivier/gh-pages:
-      version: 0.2.1
-      token: $GIT_TOKEN
-      domain: y-moriya.github.io/blog
-      basedir: public
+        version: 0.2.1
+        token: $GIT_TOKEN
+        domain: y-moriya.github.io/blog
+        basedir: public
