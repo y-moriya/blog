@@ -5,3 +5,9 @@ build:
        version: 0.12
        theme: hugo-uno
        flags: --buildDrafts=true
+deploy:
+  steps:
+    - lukevivier/gh-pages@0.2.1:
+      token: $GIT_TOKEN
+      domain: y-moriya.github.io/blog
+      basedir: public
